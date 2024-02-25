@@ -17,11 +17,9 @@ function validatePassword(password1, password2){
             for (var i of password1){
                 if(uppercaseLetters.includes(i)){
                     hasUpperCase = true;
-                }
-                if(lowercaseLetters.includes(i)){
+                } else if(lowercaseLetters.includes(i)){
                     hasLowerCase = true;
-                }
-                if(numbers.includes(i)){
+                } else if(numbers.includes(i)){
                     hasNumber = true;
                 }
             }
