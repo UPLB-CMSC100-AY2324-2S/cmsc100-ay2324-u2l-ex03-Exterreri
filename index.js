@@ -52,11 +52,13 @@ function reversePassword(password){
 }
 
 function storePassword(name, password1, password2){
+    // call validatePassword function
     if(validatePassword(password1, password2) === false){
         console.log("Wrong password!");
         return;
     }
 
+    // call reversePassword function
     var newPassword = reversePassword(password1);
     const person = {
         name: name,
