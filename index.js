@@ -73,4 +73,4 @@ function storePassword(name, password1, password2){
 // validatePassword("Hello1234", "Hello1234")  // returns true
 // validatePassword("HELLO1234", "HELLO1234")  // returns false
 
-console.log(storePassword("Harold", "Hello1234", "Hello1234")) // returns {name: "John", password: "4321olleH"}
+console.log(storePassword("Harold", "Hello1234", "Hello1234")) // returns {name: "Harold", password: "4321olleH"}
